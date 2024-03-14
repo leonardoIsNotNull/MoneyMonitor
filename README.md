@@ -4,6 +4,8 @@ Sistema para gestão mensal de gastos.
 ## 📚 Estrutura do Projeto
 Este projeto está estruturado em duas pastas principais, onde estão dividas as partes do back-end e do front-end, clone-os em pastas diferentes, mas ambos na mesma pasta raiz, para facilitar o seu desenvolvimento.
 
+Cada pasta contém um outro README, com mais informações e instruções específicas das ferramentas utilizadas, oriente-se por eles.
+
 ## 🧾 Convenções de commits para este projeto.
 
 | Tipo de Commit   | Descrição                                   |
