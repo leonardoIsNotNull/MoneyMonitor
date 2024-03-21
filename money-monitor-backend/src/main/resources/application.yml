@@ -1,12 +1,24 @@
-spring:
-  application:
-    name: money-monitor-backend
-  datasource:
-    url: ${DATASOURCE_HOST:jdbc:sqlserver:localhost\SQLEXPRESS:1433;DatabaseName=MoneyMonitor;Trusted_Connection=True}
-    username: ${DATASOURCE_USERNAME:LEONARDOG15\leona}
-    password: ${DATASOURCE_PASSWORD:}
-
 server:
   port: 8080
   servlet:
     context-path: /money-monitor-backend/rest
+
+spring:
+  application:
+    name: money-monitor-backend
+  datasource:
+    url: jdbc:postgresql://localhost:5432/MoneyMonitor
+    username: postgres
+    password: Leonidas-7
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        default_schema: "MoneyMonitor"
+        show_sql: true
+logging:
+  level:
+    root: info
