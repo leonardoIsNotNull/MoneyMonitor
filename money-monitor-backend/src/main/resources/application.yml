@@ -9,7 +9,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/MoneyMonitor
     username: postgres
-    password: Leonidas-7
+    password: semsenha
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
